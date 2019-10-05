@@ -1,0 +1,15 @@
+﻿endpoint: "https://IP_Address:Port"
+path: "/v1/chaincode/operation"
+cryptoMethod: "SW"
+signCert: "./config/cert.pem"
+prvKey: "./config/key"
+orgId: orgId
+channelId: channelId
+chaincodeId: chaincodeId
+chaincodeVersion: 1.0.0
+userId: User1
+orderers:
+  - copy_from_config_file
+peers:
+  - copy_from_config_file
+  - copy_from_config_file
